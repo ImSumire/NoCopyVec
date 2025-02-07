@@ -13,9 +13,10 @@ In addition, there is a variant called NoCopyVecPre which pre-allocates memory f
 *This implementation uses a base 2 logarithm with a complexity of O(1) thanks to the GCC built-ins __builtin_clz.*
 
 ## Why
-Performances.
-Debug mode (`-Og`): 65 to 70% faster
-Release mode (`-Ofast`): 45 to 80% faster
+Performances.<br>
+> Debug mode (`-Og`): 65 to 70% faster<br>
+> Release mode (`-Ofast`): 45 to 80% faster
+
 Anything else ? No. Performances.
 
 ## Usage
